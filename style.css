@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav ul{
+    text-align: right;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding-right: 50px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 1px 2px gray;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    opacity: 0.5;
+}
+.threelines div{
+    position:relative;
+    height: 2.9px;
+    background-color: black;
+    margin: 3px 1405px ;
+    transition: 0.3s;
+    top: -30px;
+    border-radius: 25px;
+}
+.wrapper{
+    width: 20px;
+}
+.one{
+    width: 20px;
+}
+.two{
+    width: 12px;
+}
+.three{
+    width: 17px;
+}
+.threelines:hover div{
+    width: 20px;
+}
+.txt1{
+    position: absolute;
+    left: 525px;
+    top: 100px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.txt1 h1{
+    font-weight: 300;
+}
+.txt2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Peralta', cursive;
+}
+.txt2 h2{
+    font-weight: 350;
+}
+.txt3 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Peralta', cursive;
+}
+.txt3 h2{
+    font-weight: 350;
+}
+.txt4 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Peralta', cursive;
+}
+.txt4 h2{
+    font-weight: 350;
+}
+.txt4{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    transition: 0.5s;
+    border-radius: 15px;
+    width:330px;
+    text-align: center;
+}
+.txt4:hover{
+    background-color:antiquewhite;
+}
+.txt3{
+    position: absolute;
+    top: 335px;
+    left: 20px;
+    transition: 0.5s;
+    border-radius: 15px;
+    width:500px;
+    text-align: center;
+}
+.txt3:hover{
+    background-color: antiquewhite;
+}
+.txt2{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    transition: 0.5s;
+    border-radius: 15px;
+    width:500px;
+}
+.txt2:hover{
+    background-color: antiquewhite;
+}
+.img1 img{
+    position:absolute;
+    right: 20px;
+    top: 160px;
+    border-radius: 10px;
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    transition: 0.5s;
+    position: fixed;
+    top: 8px;
+}
+.logotext{
+    position: absolute;
+    top: 28px;
+    left: 90px;
+    transition: 0.5s;
+}
+.logotext:hover{
+    opacity: 0.5;
+}
+.logotext a{
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.logotext h3{
+    font-size: 18px;
+    
+}
+.txt5{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    font-style:italic;
+}
+ .logo:hover{
+    opacity: 0.5;
+}
+.searchbar{
+    position: absolute;
+    right: 400px;
+    top: 20px;
+    
+}
+.searchbar input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: 0;
+    background-color: whitesmoke;
+}
+.profile{
+    position: fixed;
+    right: 15px;
+    top: 22px;
+    transition: 0.3s;
+    backdrop-filter: blur(2px);
+}
+.profile:hover{
+    opacity: 0.5;
+}
+html{
+    background-color:#FEFBF6 ;
+}
+.txt6{
+    position: absolute;
+    top: 650px;
+    font-family: 'Fjalla One', sans-serif;
+    left: 560px;
+}
+.txt6 h1{
+    font-weight: 300;
+}
+.img2 img{
+    position: absolute;
+    top: 750px;
+    left: 25px;
+    border-radius: 15px;
+}
+.txt7{
+    position: absolute;
+    top: 900px;
+    right:580px ;
+    border-radius: 15px;
+    transition: 0.5s;
+    text-align: center;
+    width: 240px;
+}
+.txt7 h2{
+    font-weight: 350;
+}
+.txt7:hover{
+    background-color: antiquewhite;
+}
+.txt7 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Peralta', cursive;
+}
+footer{
+    position: absolute;
+    background-color: black;
+    top: 1300px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.content{
+    color: white;
+    padding-top: 8px;
+}
+footer ul{
+    display:inline-flex;
+    list-style: none;
+    padding-top: 15px;
+}
+footer ul li{
+    margin: 8px;
+}
+footer .f1{
+    color: white;
+    padding-top: 15px;
+}
+.instagram{
+    transition: 0.3s;
+}
+.instagram:hover{
+    opacity: 0.5;
+}
+.facebook img{
+    border-radius: 5px;
+}
+.facebook{
+    transition: 0.3s;
+}
+.facebook:hover{
+    opacity: 0.5;
+}
+.twitter img{
+    border-radius: 5px;
+}
+.twitter{
+    transition: 0.3s;
+}
+.twitter:hover{
+    opacity: 0.5;
+}
+.linkedin img{
+    border-radius: 5px;
+}
+.linkedin{
+    transition: 0.3s;
+}
+.linkedin:hover{
+    opacity: 0.5;
+}
